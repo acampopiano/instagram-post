@@ -1,0 +1,58 @@
+*{
+    font-family: verdana;
+    /*margin: 10px auto;*/
+}
+body {
+    background-color: black;
+    
+}
+
+.post {
+    background: white;
+    margin: auto;
+    width: 400px;  
+}
+
+img {
+    width: 100%;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.post-header h3{
+    vertical-align: middle;
+}
+.post-header .icon-right {
+    display: flex;  
+    align-items: center;  
+}
+
+.post-header .header-titles {
+    width: 20%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+            
+.desc {
+    padding: 5px;
+}
+.post-body {
+    padding: 10px;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.icon-right i {
+    margin: 10px;
+}
